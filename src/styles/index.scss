@@ -1,0 +1,26 @@
+@import "variables.scss";
+@import "message.scss";
+@import "table.scss";
+@import "points.scss";
+@import "buttons.scss";
+@import "cards.scss";
+
+body {
+  font-family: Bitter, serif;
+}
+
+h2 {
+  font-size: 1.2em;
+  display: block;
+  width: 100%;
+  color: $white-color;
+  border-bottom: 3px $white-color solid;
+  padding-bottom: 5px;
+}
+
+.blackjack {
+  width: 80%;
+  height: 80%;
+  margin: 20px auto;
+  position: relative;
+}

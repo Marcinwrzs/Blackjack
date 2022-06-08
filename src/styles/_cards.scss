@@ -1,0 +1,31 @@
+.card {
+  background: #fff;
+  width: 45px;
+  padding: 40px 20px;
+  font-weight: bold;
+  margin-right: 20px;
+  box-shadow: 0.2em 0.2em 0.5em #333;
+
+  @media (max-width: 700px) {
+    width: 30px;
+    padding: 5px;
+    height: 100px;
+    line-height: 100px;
+  }
+}
+
+.hearts {
+  color: $red-color;
+}
+
+.diamonds {
+  color: $red-color;
+}
+
+.clubs {
+  color: $black-color;
+}
+
+.spades {
+  color: $black-color;
+}
